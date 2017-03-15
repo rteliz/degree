@@ -9,11 +9,11 @@ let A = Matrix([
 ]);
 //Code here
 function degree(mtrx,v){
-  let sum = 0;
+  let sum=0;
   let degreelist = mtrx(v-1)
-
-  for(let );
-
+  for(let a=0;a<degreelist.length;a++){
+     sum=sum+degreelist[a];
+  }  
 }
 
 function degreecentrality(){
